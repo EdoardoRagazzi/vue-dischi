@@ -3,7 +3,7 @@
     <div
       v-for="(item, index) in listCharacter"
       :key="index"
-      class="col-6 col-md-4 col-lg-3"
+      class="col-6 col-md-4 col-lg-1 carta"
     >
       {{ item.name }}
       <Character :details="item" />
@@ -48,5 +48,11 @@ export default {
 };
 </script>
 
-<style>
+<style scoped lang="scss" >
+.carta {
+  cursor: pointer;
+  &:hover {
+    z-index: 5;
+  }
+}
 </style>
