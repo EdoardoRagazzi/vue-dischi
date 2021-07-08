@@ -2,7 +2,9 @@
   <div class="card p-5 bg-secondary" style="width: 18rem">
     <img :src="details.poster" class="card-img-top" alt="details.title" />
     <div class="card-body g-5">
-      <h5 class="card-title">{{ details.title }}</h5>
+      <h5 class="card-title">
+        <i class="fab fa-accessible-icon"></i>{{ details.title }}
+      </h5>
       <p class="card-text"></p>
     </div>
     <ul class="list-group list-group-flush">
