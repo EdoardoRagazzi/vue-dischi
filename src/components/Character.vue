@@ -21,6 +21,12 @@ export default {
 </script>
 
 <style>
+.list-group {
+  flex-direction: initial;
+}
+.card {
+  height: 500px;
+}
 </style>
 
  

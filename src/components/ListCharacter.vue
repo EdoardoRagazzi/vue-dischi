@@ -1,11 +1,6 @@
 <template>
-  <div class="container text center row g-5">
-    <div
-      v-for="(item, index) in listCharacter"
-      :key="index"
-      class="col-6 col-md-4 col-lg-1 carta"
-    >
-      {{ item.name }}
+  <div class="text center row g-5">
+    <div v-for="(item, index) in listCharacter" :key="index" class="col carta">
       <Character :details="item" />
     </div>
   </div>
@@ -49,7 +44,12 @@ export default {
 </script>
 
 <style scoped lang="scss" >
+.text {
+  width: 70%;
+}
 .carta {
+  padding-bottom: 40px;
+  max-height: 600px;
   cursor: pointer;
   &:hover {
     z-index: 5;
