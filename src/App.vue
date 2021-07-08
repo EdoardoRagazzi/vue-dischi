@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <Header message="Dischi" />
+    <Header class="text-uppercase" message="Dischi" />
     <ListCharacter />
   </div>
 </template>
