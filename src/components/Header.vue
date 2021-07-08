@@ -1,5 +1,5 @@
 <template>
-  <header>
+  <header class="text-center p-5 text-white">
     <h1>{{ message }}</h1>
   </header>
 </template>

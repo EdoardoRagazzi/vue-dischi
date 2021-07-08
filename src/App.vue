@@ -1,16 +1,19 @@
 <template>
   <div id="app">
     <Header message="Dischi" />
+    <ListCharacter />
   </div>
 </template>
 
 <script>
 import Header from "./components/Header.vue";
+import ListCharacter from "@/components/ListCharacter.vue";
 
 export default {
   name: "App",
   components: {
     Header,
+    ListCharacter,
   },
 };
 </script>
