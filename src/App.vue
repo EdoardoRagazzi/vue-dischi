@@ -1,7 +1,9 @@
 <template>
   <div id="app">
-    <Header class="text-uppercase" message="Dischi" />
-    <ListCharacter />
+    <Header />
+    <div class="d-flex justify-content-center">
+      <ListCharacter />
+    </div>
   </div>
 </template>
 
@@ -25,7 +27,5 @@ export default {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
 }
 </style>

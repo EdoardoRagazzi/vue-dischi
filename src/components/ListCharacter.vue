@@ -1,5 +1,5 @@
 <template>
-  <div class="row g-5">
+  <div class="container text center row g-5">
     <div
       v-for="(item, index) in listCharacter"
       :key="index"
