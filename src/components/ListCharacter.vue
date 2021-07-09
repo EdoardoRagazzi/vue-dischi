@@ -7,7 +7,8 @@
 </template>
 
 <script>
-// import "axios";
+// import "axios" for using API;
+
 import axios from "axios";
 import Character from "@/components/Character.vue";
 
@@ -22,6 +23,7 @@ export default {
       listCharacter: [],
     };
   },
+  // CREATED IS CALLED: in order to trigger actions like data fetching from API backend----Created will not wait for all if the async operations to complete before moving on to the next stage when making API call
   created() {
     this.getCharacters();
   },

@@ -9,7 +9,6 @@
     </div>
     <ul class="list-group list-group-flush">
       <li class="list-group-item bg-secondary">{{ details.author }}</li>
-      <li class="list-group-item bg-secondary">{{ details.genre }}</li>
       <li class="list-group-item bg-secondary">{{ details.year }}</li>
     </ul>
   </div>
