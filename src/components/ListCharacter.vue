@@ -1,6 +1,10 @@
 <template>
   <div class="text center row g-5">
-    <div v-for="(item, index) in listCharacter" :key="index" class="col carta">
+    <div
+      v-for="(item, index) in listCharacter"
+      :key="index"
+      class="col-md carta"
+    >
       <Character :details="item" />
     </div>
   </div>

@@ -21,10 +21,6 @@ header {
     float: left;
     padding: 10px;
     color: green;
-    i {
-      font-size: 3em;
-      color: green;
-    }
   }
 }
 </style>
